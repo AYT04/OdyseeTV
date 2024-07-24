@@ -2,12 +2,12 @@ package com.example.odyseetv
 
 object MovieList {
     val MOVIE_CATEGORY = arrayOf(
-            "Category Zero",
-            "Category One",
-            "Category Two",
-            "Category Three",
-            "Category Four",
-            "Category Five")
+            "Technology",
+            "Comedy",
+            "Nature",
+            "Reacion videos",
+            "Operating Systems",
+            "Audio Commentary")
 
     val list: List<Movie> by lazy {
         setupMovies()
@@ -16,24 +16,19 @@ object MovieList {
 
     private fun setupMovies(): List<Movie> {
         val title = arrayOf(
-                "Zeitgeist 2010_ Year in Review",
-                "Google Demo Slam_ 20ft Search",
-                "Introducing Gmail Blue",
-                "Introducing Google Fiber to the Pole",
-                "Introducing Google Nose")
+                "Daz Watches The Most Offensive Videos Ever",
+                "2,000,000 Subs - (Pirate Software)",
+                "Ava Kris Tyson Situation is Crazy",
+                "He Sent Me Minecraft Malware (Java Deobfuscation)",
+                "What The F*** Is Happening to Canada?")
 
-        val description = "Fusce id nisi turpis. Praesent viverra bibendum semper. " +
-                "Donec tristique, orci sed semper lacinia, quam erat rhoncus massa, non congue tellus est " +
-                "quis tellus. Sed mollis orci venenatis quam scelerisque accumsan. Curabitur a massa sit " +
-                "amet mi accumsan mollis sed et magna. Vivamus sed aliquam risus. Nulla eget dolor in elit " +
-                "facilisis mattis. Ut aliquet luctus lacus. Phasellus nec commodo erat. Praesent tempus id " +
-                "lectus ac scelerisque. Maecenas pretium cursus lectus id volutpat."
+        val description = "Fusce id nisi turpis. Praesent viverra bibendum semper."
         val studio = arrayOf(
-                "Studio Zero",
-                "Studio One",
-                "Studio Two",
-                "Studio Three",
-                "Studio Four")
+                "Daz Games",
+                "Pirate Software",
+                "Penguinz0",
+                "John Hammond",
+                "Elvis Jesse")
         val videoUrl = arrayOf(
                 "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/Zeitgeist/Zeitgeist%202010_%20Year%20in%20Review.mp4",
                 "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%2020ft%20Search.mp4",
